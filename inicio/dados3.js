@@ -15,4 +15,4 @@ console.log(typeof nome);
 console.log(1 + 1);
 console.log("1" + 1);
 
-console.log(valor * "Valor")
+console.log(valor * "Valor");
