@@ -1,0 +1,3 @@
+git config --global user.name  angelo0bonassi
+git config --global user.email  angelo.bonassi@aluno.senai.br
+
