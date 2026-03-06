@@ -14,6 +14,52 @@ x = x * 3          x *= 3
 != diferente solto evite
 
 !== use este compara valor e tipo
+let, const e var sao indicadores de variaveis.
+typeof é usado pra identificar o tipo do bglho declarado
+ex:
+let valor = 1500.50
+console.log(typeof valor);
+ai vai retornar no terminal o tipo de declaracao, que nesse caso é number
+
++ : soma
+- : subtracao
+* : multiplicacao
+/ : divisao
+** : exponenciacao
+% : resto de divisao
+= : atribuicao
+== : compara apenas do valor, ignorando o tipo (chamado de igualdade solta, pode dar bugs silenciosos e imprevisiveis) ex: 5 == "5" vai identificar como igual mas é diferente o tipo pq uma é number e outra é texto
+=== : compara o valor e o tipo (caminho seguro e previsivel) ex : 5 === "5" vai identificar como diferente pois um é number e o outro texto
+!= diferente solto, tipo aquele igual com risco no meio (evitar)
+!== diferente mas que compara valor e tipo (usar esse)
+
+
+
+forma padrao - - - - - - - - atalho eficiente
+
+x = x + 5                      x += 5
+x = x - 2                      x -= 2 
+x = x * 3                      x *= 3
+
+operadores de incremento (++)
+ex:
+let contador = 0;
+contador++;
+(sempre que passar pelo "contador++" vai adicionar 1 no contador)
+
+operadores de decremento (--)
+ex:
+let itensRestantes = 10;
+itensRestantes--;
+(sempre que passar pelo "itensRestantes--" vai diminuir 1 no itensRestantes)
+
+
+and (&amp;&amp;)               or (||)                not(!)        
+
+exige que todas        exige que pelo              
+as condicoes           menos uma   
+sejam                  condicao seja
+verdadeiras            verdadeira  
 
 
 
