@@ -1,14 +1,14 @@
 let a = 1;
 
-a = a + 1;
-a += 1;
-a++;
+a = a + 1; // 2
+a += 1; // 3
+a++; // unario
 
-console.log(a);
+console.log(a); // 4
 
 
-a = a - 1;
+a = a - 1; 
 a -= 1;
-a--;
+a--; // unario
 
-console.log(a);
+console.log(a); // 1
