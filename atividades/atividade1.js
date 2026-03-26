@@ -8,11 +8,5 @@ function exibirProduto(){
 
 exibirProduto();
 
-if( estoque != true){
-    console.log("Nao Ha o produto no estoque");
-}
-else{
-    console.log("Ha o produto no estoque");
-}
 
-console.log(`O produto: ${produto} custa R$${preco}`);
+console.log(`O item: ${produto} custa R$${preco}\nDisponibildade: ${estoque}`);
