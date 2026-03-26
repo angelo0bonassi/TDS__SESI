@@ -1,7 +1,7 @@
  Se você esta lendo isso saiba que eu provavelmete estou morto,
- e saiba que eu morri da pior forma possivel que você poss imaginar.
+ e saiba que eu morri da pior forma possivel que você possa imaginar.
 
- Porem eu deixei um tesouro de minha fortuna, iss inclui todo os meus 200 Bilhões de dolares qu possuo
+ Porem eu deixei um tesouro de minha fortuna, isso inclui todo os meus 200 Bilhões de dolares qu possuo
  esse tesouro esta escondido em um lugar a tempos esquecido, em uma ilha dessolada, pela morte devastada
  se o tessouro você quer encontrar as pistas deves vigiar.
 
