@@ -11,6 +11,3 @@ itens.push('ssd');
 
 itens.shift()
 console.log(itens);
-
-
-
