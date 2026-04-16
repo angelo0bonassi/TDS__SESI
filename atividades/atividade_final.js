@@ -1,32 +1,34 @@
-const estoque = ["SSD 1TB", "RTX 5090", "Whater Cooler", "Memoria RAM 16G DDR5", "I7 RYZEN"];
-estoque.push("Placa Mae");
-let valorCompra = 600;
-let clienteNome = "Angelo"; 
-let clienteIdade = 18;
+const estoque = ["Placa de video", "Placa mae", "Fonte", "Water cooler", "Memoria RAM"];
+estoque.push("SSD");
+let clienteNome = "Angelo";
+let clienteIdade = 16;
 let possuiCupom = true;
-let i;
-let venda = processarVenda(valorCompra, possuiCupom);
+let valorTotal = 1500;
+let quantidadeItens = estoque.length;
 
-
-function processarVenda(valorTotal, cupomAtivo, quantiadeItens){
-
-    var valorFinal = valorTotal >= 500 || cupomAtivo == true ? valorTotal * 0.85 : valorTotal;
-    return valorFinal; 
+function processarVenda(valorTotal, cupomAtivo)
+{
+    var verificar = valorTotal >= 500 || cupomAtivo === true ? valorTotal * 0.85 : valorTotal;
+    return (verificar);
 }
 
-let idadeCerta = processarVenda(valorCompra, possuiCupom)
-
-    if(clienteIdade >= 16){
-        console.log(`Venda autorizada para ${clienteNome}.`); 
-        i = 1;
-    }
-    else{
-        console.log(`Venda bloqueada: Idade Insuficiente`)
-        i = 0;
-    }
-
-for(i = true; i = 1 ;i++){
-    console.log(`Cliente ${clienteNome} processou um pedido de R$${venda}. Itens restantes no estoque ${estoque.length}`);
-    console.log(`Despachando item: ${estoque[0]}`)
-    estoque.splice[0];
+if (clienteIdade >= 16)
+{
+    console.log(`Venda autorizada para: ${clienteNome}\n`);
 }
+
+else 
+{
+    console.log(`Venda bloqueada: Idade insuficiente.`);
+}
+ 
+for (let i = 0; i < quantidadeItens; i++)
+{
+    console.log (`Despachando item: ${estoque[i]}... OK!`);
+}
+console.log ("Fim\n");
+estoque.shift();
+
+let quantidadeFinalItens = estoque.length;
+console.log(`Relatorio da loja: Cliente ${clienteNome} processou um pedido de R$ ${processarVenda(valorTotal, possuiCupom)}.
+Itens restantes no estoque: ${quantidadeFinalItens}. `);
