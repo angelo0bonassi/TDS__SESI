@@ -4,4 +4,3 @@ while (contador <= 100)
     console.log("Contador: " + contador);
     contador++;
 }
-
