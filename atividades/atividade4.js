@@ -21,9 +21,3 @@ else
 {
     console.log(`Preco original: ${carrinhoDeCompra}`);
 }
-
-/*
-
-
-
-*/
