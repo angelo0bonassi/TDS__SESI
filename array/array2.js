@@ -9,13 +9,4 @@ nomes[5] = "Joao";
 console.log(nomes);
 
 
-
-
-
-
-
-
-
-
-
 // Desafio: Iserir 5 novos indices com 5 nomes e imprimir na tela
