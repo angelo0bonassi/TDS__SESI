@@ -10,4 +10,3 @@
  console.log("Produto: " + nome + "  Valor: "
  + preco + "   Categoria: " + categoria +
  "   Desconto: "+ precoComDesconto);
- 

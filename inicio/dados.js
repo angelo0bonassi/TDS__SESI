@@ -14,9 +14,3 @@ console.log(precoFinal);
 
 nome = "Caneta BIC";
 console.log(nome);
-
-
-
-
-
-
