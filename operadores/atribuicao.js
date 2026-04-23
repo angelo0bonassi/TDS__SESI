@@ -17,14 +17,3 @@ console.log(y);
 let nome = "Angelo ";
 nome += "Faganello Bonassi";
 console.log(nome);
-
-
-
-
-
-
-
-
-
-
-
