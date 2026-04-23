@@ -15,5 +15,4 @@ console.log(`Total do pedido: R$${resultado}`);
    (☞ﾟヮﾟ)☞  ☜(ﾟヮﾟ☜)
 
 
-
 */

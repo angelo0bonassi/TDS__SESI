@@ -9,4 +9,3 @@ function exibirProduto(produto, preco){
 
 exibirProduto(produto1, preco1);
 exibirProduto(produto2, preco2);
-
